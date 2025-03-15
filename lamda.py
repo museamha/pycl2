@@ -48,6 +48,17 @@ from functools import reduce
 
 numbers = [1,2,3,4,5,1]
 
-total = reduce(lambda acc, curr: acc+curr, numbers)
+total = reduce(lambda acc, curr: acc+curr, numbers,10)
 
 print(total)
+
+print(sum(numbers,10))
+
+
+names = ["dave gray","sara ito","johon jacob","jingleheimerschmidt"]
+
+
+char_count = reduce(lambda acc,curr:acc+len(curr),names,0
+)
+
+print(char_count)
