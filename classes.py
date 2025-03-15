@@ -23,6 +23,9 @@ you_car.get_make_model()
 you_car.moves()
 
 class Airplain(Vehicle):
+    def __init__(self, make, model):
+        self.make =make
+        self.model = model
     def moves(self):
         print("flies along")
         
