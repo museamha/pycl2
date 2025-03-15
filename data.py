@@ -81,4 +81,3 @@ print(math.floor(gpa))
 zipcode = "10001"
 zipvalue = int(zipcode)
 print(zipvalue)
-
