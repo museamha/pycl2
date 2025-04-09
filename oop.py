@@ -5,6 +5,7 @@ muse = Bank_account(2000, "Muse")
 
 dave.get_balance()
 muse.get_balance()
-dave.deposit(500)
-muse.deposit()
+
+dave.deposit()
+muse.deposit(500)
 
